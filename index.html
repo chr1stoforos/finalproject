@@ -13,7 +13,7 @@
     <section class="registration-form">
       <h2>Register Now</h2>
 
-    <form action="https://formsubmit.co/202410792@fit.edu.ph" method="POST">
+    <form action="https://formsubmit.co/202410792@fit.edu.ph" method="POST" onsubmit="return registered">
         <label for="username">Username</label>
         <input type="text" id="username" name="username" required />
   
@@ -28,6 +28,7 @@
 
         <button type="submit">Register</button>
       </form>
+        <p>Already have an account? <a href="login.html">Login</a></p>
     </section>
   </main>
 
@@ -36,12 +37,13 @@
   </footer>
 
   <script>
-    document.getElementById("registerForm").addEventListener("submit", function (e) {
+    document.registered("registerForm").addEventListener("submit", function (e) {
       e.preventDefault(); 
       alert("You are now registered!");
       localStorage.setItem("isRegistered", "true"); 
       window.location.href = "https://chr1stoforos.github.io/finalproject/landpage.html"; 
     });
   </script>
+
 </body>
 </html>
