@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>It's Me Chris! Apparel Co.</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+<div id="mySidebar" class="sidebar" onmouseover="toggleSidebar()" onmouseout="toggleSidebar()">
+  <a href="landpage.html"><span><i class="material-icons">home</i><span class="icon-text">Home</span></a><br>
+  <a href="#about"><i class="material-icons">info</i><span class="icon-text"></span>About</a></span></a><br>
+  <a href="#portfolio"><i class="material-icons">explore</i><span class="icon-text"></span>Explore</span></a><br>
+  <a href="#contact"><i class="material-icons">email</i><span class="icon-text">Contact Us</span></a><br>
+  <a href="index.html"><i class="material-icons">logout</i><span class="icon-text">Logout</span></a>
+
+    <script>
+
+var mini = true;
+
+function toggleSidebar() {
+  if (mini) {
+    console.log("opening sidebar");
+    document.getElementById("mySidebar").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    this.mini = false;
+  } else {
+    console.log("closing sidebar");
+    document.getElementById("mySidebar").style.width = "85px";
+    document.getElementById("main").style.marginLeft = "85px";
+    this.mini = true;
+  }
+}
+
+    </script>
+    
+</div>
+
+<div id="main">
+</div>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#!">CHRIS CLOTHING</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Explore</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html">Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Header - set the background image for the header in the line below-->
+        <header class="py-5 bg-image-full" style="background-image: url('https://png.pngtree.com/background/20250122/original/pngtree-fashion-clothing-on-hangers-at-the-show-picture-image_15460073.jpg')">
+            <div class="text-center my-5">
+                <img class="img-fluid rounded-circle mb-4" src="itsme.png" alt="..." />
+                <h1 class="text-white fs-3 fw-bolder">Apparel Co.</h1>
+                <p class="text-white-50 mb-0">since 2025</p>
+            </div>
+        </header>
+
+        <!-- Content section-->
+        <section class="py-5" id="about">
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <h2>ABOUT US</h2>
+                        <p class="lead">Born on the streets and built for the grind—It'sMeChris! is your daily armor. We blur the lines between fashion and function, pushing bold designs that demand attention. Wear it loud, wear it proud—this is style with no apologies.</p>
+                        <p class="mb-0">Founded in 2025 by Chris, It'sMeChris! was born from a simple but powerful idea: to create clothing that blends style, substance, and soul. What started as a passion project has evolved into a community—built on authenticity, driven by creativity, and fueled by purpose.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">EXPLORE</h2>
+                    <h3 class="section-subheading text-muted">Learn more!</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 1-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="1.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Fabric</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 2-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="2.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Affiliates</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 3-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="3.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Information</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <!-- Portfolio item 4-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="4.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Pricing</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                        <!-- Portfolio item 5-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="5.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Innovation</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <!-- Portfolio item 6-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="6.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">New era?</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Fabric</h2>
+                                    <p class="item-intro text-muted">Woven for movement. Styled for impact.</p>
+                                    <img class="img-fluid d-block mx-auto" src="1.jpg" alt="..." />
+                                    <p>At <strong>It's Me Chris!</strong>, our fabrics are more than materials—they're the foundation of self-expression. We carefully select textiles that feel as good as they look: soft on the skin, durable by design, and kind to the planet. Whether it’s breathable cotton, sleek recycled poly, or cozy natural blends, every thread is chosen to elevate your everyday experience.</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Topic:</strong>
+                                            Fabric
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 2 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Affiliates</h2>
+                                    <p class="item-intro text-muted">Styled by us. Powered by partnership.</p>
+                                    <img class="img-fluid d-block mx-auto" src="2.jpg" alt="..." />
+                                    <p>We collaborate with a growing circle of creators, partners, and local businesses who share our passion for style, substance, and community. These partnerships help expand our reach and bring fresh energy to every collection. From fabric suppliers to pop-up hosts, each affiliate plays a vital role in weaving our brand story.</p><br>
+                                    <p>Together, we champion craft, culture, and conscious fashion.</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Topic:</strong>
+                                            Affiliates
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 3 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Information</h2>
+                                    <p class="item-intro text-muted">Clarity in every stitch. Confidence in every step.</p>
+                                    <img class="img-fluid d-block mx-auto" src="3.jpg" alt="..." />
+                                    <p>We believe fashion should be clear and intentional. That’s why this space is dedicated to helping you understand our brand better—from sizing guides and shipping policies to fabric care and ethical sourcing. It’s all here, so you can shop confidently and feel connected to the process behind every piece.</p><br>
+                                    <p>Got questions? We’ve got you covered—because your peace of mind matters just as much as your style.</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Topic:</strong>
+                                            Information
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 4 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Pricing</h2>
+                                    <p class="item-intro text-muted">Priced with purpose. Worn with pride.</p>
+                                    <img class="img-fluid d-block mx-auto" src="4.jpg" alt="..." />
+                                    <p>Our pricing reflects the care we put into every piece—from thoughtfully sourced fabrics to ethical craftsmanship and detail-driven design. We believe in honest value, where quality meets accessibility, and every cost tells a story of purpose. Whether you’re shopping our essentials or limited editions, you’re investing in clothing built to last and made to matter.</p><br>
+                                    <p>No smoke, no mirrors—just fashion with integrity.</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Topic:</strong>
+                                            Pricing
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 5 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Innovation</h2>
+                                    <p class="item-intro text-muted">Built on vision. Worn with purpose.</p>
+                                    <img class="img-fluid d-block mx-auto" src="5.jpg" alt="..." />
+                                    <p>At <strong>It's Me Chris!</strong>, innovation isn’t just a buzzword—it’s the blueprint. We experiment with materials, challenge design norms, and embrace new tech to redefine what clothing can be. From adaptive fits and eco-forward fabrics to digital lookbooks and interactive shopping experiences, we’re always thinking ahead so you can wear what’s next.</p><br>
+                                    <p>Style evolves. So do we.</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Topic:</strong>
+                                            Innovation
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 6 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">New Era?</h2>
+                                    <p class="item-intro text-muted">Where style meets evolution." Or for a slightly bolder edge: "Rewriting fashion’s future—one drop at a time.</p>
+                                    <img class="img-fluid d-block mx-auto" src="6.jpg" alt="..." />
+                                    <p>This is more than a launch—it’s a movement. The New Era at [Your Brand Name] represents a commitment to evolving style, culture, and conscience. We’re pushing boundaries, breaking molds, and designing with intent. Expect elevated fits, future-facing concepts, and a deeper connection between fashion and purpose.</p><br>
+                                    <p>Welcome to the next chapter. Fresh silhouettes. Deeper stories. Real impact.</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Topic:</strong>
+                                            New Era?
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Image element - set the background image for the header in the line below-->
+        <div class="py-5 bg-image-full" style="background-image: url('https://source.unsplash.com/4ulffa6qoKA/1200x800')">
+            <!-- Put anything you want here! The spacer below with inline CSS is just for demo purposes!-->
+            <div style="height: 20rem"></div>
+        </div>
+        <!-- Content section-->
+    <section class="contact" id="contact">
+        <form id="contactForm" method="post">
+            <h2 class="contact-message">Contact us!</h2>
+            <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+
+        <script>
+                    document.getElementById("contactForm").addEventListener("submit", function (e) {
+                    e.preventDefault(); 
+                    alert("Thank you for contacting us!");
+                    localStorage.setItem("Submitted", "true");
+                    window.location.href = "landpage.html"; 
+                });
+        </script>
+
+    </section>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Chris Angelo D. Sabater 2025 @ chrisangelo@gmail.com </p></div>
+            <div class="text-center my-4">
+                <img class="logo-down" src="itsme.png" alt="..." />
+                <h1 class="text-white fs-3 fw-bolder">Apparel Co.</h1>
+                <p class="text-white-50 mb-0">since 2025</p>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f4f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header styling */
+.site-header {
+  background-color: #101820;
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Main registration section */
+.registration-form {
+  background-color: #ffffff;
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.registration-form h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #222;
+}
+
+/* Form elements */
+.registration-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.registration-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+}
+
+.registration-form input:focus {
+  border-color: #0050b3;
+  outline: none;
+}
+
+/* Submit button */
+.registration-form button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background-color: #0050b3;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.registration-form button:hover {
+  background-color: #003c8a;
+}
+
+/* Footer styling */
+.site-footer {
+  background-color: #101820;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.site-footer p {
+  margin: 0;
+  font-size: 14px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>It's Me Chris!</title>
+  <link rel="stylesheet" href="registration.css" />
+  <header class="site-header">
+    <div class="logo">It's Me Chris!</div>
+  </header>
+
+  <main>
+    <section class="registration-form">
+      <h2>Register Now</h2>
+
+      <form id="registerForm">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required />
+  
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required />
+
+        <label for="confirm-password">Confirm Password</label>
+        <input type="password" id="confirm-password" name="confirm-password" required />
+
+        <button type="submit">Register</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Copyright &copy; It'sMeChris 2025</p>
+  </footer>
+
+  <script>
+    document.getElementById("registerForm").addEventListener("submit", function (e) {
+      e.preventDefault(); 
+      alert("You are now registered!");
+      localStorage.setItem("isRegistered", "true"); 
+      window.location.href = "landpage.html"; 
+    });
+  </script>
+</body>
+</html>
